@@ -1,0 +1,18 @@
+.btn_reservation {
+    font-size: 70px;
+    padding: 5px 20px;
+    display:scroll;
+    position:fixed;
+    bottom:30px;
+    right:0px;
+    margin-right: 20px;
+    border-radius: 100%;
+    color: white;
+    background: linear-gradient(0deg,#27ae60,#2ecc71);
+}
+
+.btn_reservation:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+

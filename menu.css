@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  /*flex-direction: row;
+  flex-wrap: wrap; shortcout*/
+  flex-flow: row wrap;
+  justify-content:space-evenly;
+  margin: 50px;
+  align-items: baseline;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #ff0114;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+.titles {
+   padding: 8px;
+    margin: 40px;
+    height: 50px;
+    background-color: #2d3436;
+    text-align: center;
+    color: white;
+}
+
